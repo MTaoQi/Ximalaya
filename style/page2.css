@@ -1,0 +1,74 @@
+img {
+    width: 100%;
+}
+.head{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.page2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.woting {
+    overflow: auto;
+}
+
+.woting ul {
+    display: flex;
+    width: 130%;
+}
+
+
+.woting li {
+    width: 20%;
+    margin-right: .2rem;
+}
+
+.twoImg {
+    margin-top: .3rem;
+}
+
+.twoImg ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.twoImg li {
+    display: flex;
+    width: 100%;
+    margin-top: .3rem;
+}
+
+.twoImg li div:last-child {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: large;
+}
+
+.twoImg span {
+    font-size: small;
+}
+
+#div1 {
+    margin-top: .3rem;
+}
+
+#div1 ul {
+    display: flex;
+    font-size: .8rem;
+    justify-content: space-between;
+}
+
+.input {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.input button {
+    display: block;
+    width: 100%;
+}

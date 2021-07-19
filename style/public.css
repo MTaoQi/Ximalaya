@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 楷体;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+}
+.ss {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ss input {
+    width: 80%;
+    border-radius: .2rem;
+
+}

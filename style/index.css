@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 楷体;
+    /* margin-top: .1rem; */
+}
+
+a {
+    text-decoration: none;
+}
+
+.index {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top {
+    width: 80%;
+    overflow: auto;
+}
+
+.top::-webkit-scrollbar {
+    display: none;
+}
+
+li {
+    list-style: none;
+    font-size: .1rem;
+    width: 10%;
+    /* flex-wrap: wrap; */
+
+}
+
+.top ul {
+    display: flex;
+    width: 230%;
+}
+
+/* .ss {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ss input {
+    width: 80%;
+    border-radius: .2rem;
+
+} */
+
+.four_img ul {
+    display: flex;
+}
+
+.four_img li {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 20%;
+    /* 设置或检索弹性盒子元素在主轴（横轴）对其方式 */
+}
+
+span {
+    text-align: center;
+    
+}
+
+.four_img i {
+    display: inline-block;
+    background: url(../img/1_1.jpg) no-repeat -.3rem;
+    background-size: 9rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.four_img li:nth-child(2) i {
+    background-position: -2rem;
+}
+
+.four_img li:nth-child(3) i {
+    background-position: -3.88rem;
+}
+
+.four_img li:nth-child(4) i {
+    background-position: -5.63rem;
+}
+
+.four_img li:nth-child(5) i {
+    background-position: -7.42rem;
+}
+
+img {
+    width: 100%;
+
+}
+
+.dt {
+    position: relative;
+}
+
+.dt p {
+    position: absolute;
+    left: 90px;
+    top: 50px;
+    font-size: .2rem;
+}
+
+.dt img {
+    width: 100%;
+}
+.six div{
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+}
+.six_img ul {
+    list-style: none;
+    overflow: auto;
+    width: 369px;
+}
+
+.six_img img {
+    border: none;
+    display: block;
+    border-radius: 10px;
+}
+
+.six_img li {
+    width: 113px;
+    float: left;
+    margin: 5px;
+}
+
+.six {
+    background-color: beige;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.six div:last-child {
+    display: flex;
+    justify-content: center;
+}
+.seven_img {
+    width: 100%;
+    background-color: antiquewhite;
+    /* display: flex; */
+}
+
+.seven_img img {
+    float: left;
+    height: 120px;
+    width: 120px;
+    margin-right: 30px;
+}
+
+.seven_img p {
+    margin-top: 80px;
+    font-size: 10px;
+}
+
+.seven_img.clear {
+    clear: both;
+}
+
+.seven_img h4 {
+    font-size: 15px;
+    /* margin-bottom: 100px; */
+}
+
+.star{
+    color:darkgoldenrod;
+}
+.footer {
+    background: rgb(255,255,255);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 0.01rem solid lightgray;
+ /*    height: 1rem; */
+    box-sizing: border-box;
+    padding: .16rem 0.16rem;
+}
+
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer li {
+    margin-top:.1rem;
+    text-align: center;
+}
+
+.footer li a {
+    color: gray;
+}
+#xx{
+    font-size: .2rem;
+}
+

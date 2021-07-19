@@ -1,0 +1,33 @@
+.page3,
+.pageEnd,
+.page,
+.clear {
+    display: flex;
+    flex-wrap: wrap;
+}
+.page,
+.pageEnd {
+    margin-top: 2rem;
+    padding: .2rem 0;
+    /* background-color: aquamarine; */
+}
+.pagee{
+    margin-top: 1rem;
+}
+
+.page div {
+    width: 100%;
+}
+
+.page div:first-child {
+    font-size: 2rem;
+}
+
+.page div:last-child,
+.pagee {
+    display: flex;
+}
+.lishi{
+    margin: 1rem;
+    text-justify:inter-ideograph
+}
